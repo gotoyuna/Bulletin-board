@@ -1,0 +1,70 @@
+@import url(https://fonts.googleapis.com/css?family=Open+Sans:400,700);
+
+body {
+  background: #FFDDFF;
+  font-family: "Times New Roman";
+}
+
+.login {
+  width: 400px;
+  margin: 16px auto;
+  font-size: 20px;
+}
+
+.login-header,
+.login p {
+  margin-top: 0;
+  margin-bottom: 0;
+}
+
+.login-triangle {
+  width: 0;
+  margin-right: auto;
+  margin-left: auto;
+  border: 12px solid transparent;
+  border-bottom-color: teal;
+}
+
+.login-header {
+  background: teal;
+  padding: 20px;
+  font-size: 25px;
+  font-weight: normal;
+  text-align: center;
+  text-transform: uppercase;
+  color: white;
+}
+
+.login p {
+  padding: 12px;
+}
+
+.login input {
+  box-sizing: border-box;
+  display: block;
+  width: 100%;
+  border-width: 1px;
+  border-style: solid;
+  padding: 16px;
+  outline: 0;
+  font-family: inherit;
+  font-size: 0.95em;
+}
+
+.login input[type="text"],
+.login input[type="password"] {
+  background: white;
+  border-color: #bbb;
+}
+
+.login input[type="submit"] {
+  background: teal;
+  border-color: transparent;
+  color: white;
+  cursor: pointer;
+}
+
+.login input[type="submit"]:hover {
+  background: #00CCCC;
+}
+

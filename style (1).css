@@ -1,0 +1,111 @@
+body {
+    font-family: "Times New Roman";
+    background-color: teal;
+}
+
+.heading {
+    text-align: center;
+    position: relative;
+    background: white;
+    box-shadow: 0px 0px 0px 8px white;
+    border: dashed 2px teal;
+    padding: 0.2em 0.5em; 
+    color: #FFFFDD;
+}
+
+.heading: after {
+    position: absolute;
+    content: '';
+    right: -7px;
+    top: -7px;
+    border-width: 0 15px 15px 0;
+    border-style: solid;
+    border-color: #ffdb88 white #ffdb88;
+    box-shadow: -1px 1px 1px rgba(0, 0, 0, 0.15);
+}
+
+.heading h1 {
+    margin: 0; 
+    padding: 0;
+    font-size: 40px;
+    color: teal;
+}
+
+table {
+    border-collapse: collapse;
+    width: 80%;
+    margin: 50px auto;
+}
+
+a.name {
+    color: #FFD700;
+    font-size: 25px;
+    padding: 1px 6px;
+    border-radius: 3px;
+    text-decoration:none;
+} 
+a.name:hover{
+  color : #ff7043;
+}
+
+tr {
+    border-bottom: 1px solid #cbcbcb;
+}
+
+th {
+    font-size: 19px;
+    color: white;
+    width: 10%;
+    margin: 50px auto;
+}
+
+td {
+    text-align: center;
+    color: white;
+}
+
+.message {
+    text-align: center;
+}
+
+.message h1 {
+    color: #FFDDFF;
+    font-size: 40px;
+}
+
+.message h2 {
+    color: #FFD700;
+    font-size: 40px;
+}
+
+.message a {
+    color: white;
+    font-size: 20px;
+}
+
+.operations a {
+    padding: 1px 6px;
+    border-radius: 3px;
+    text-decoration:none; 
+}
+
+a.btn-upload {
+    color: white;
+    background: #00008B;
+}
+
+a.btn-delete {
+    color: white;
+    background: #a52a2a;
+}
+
+
+.info {
+    text-align: center;
+}
+
+.info a {
+    color: #EEFFFF;
+    font-size: 18px;
+}
+

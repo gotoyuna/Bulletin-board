@@ -1,0 +1,80 @@
+body {
+  font-family: "Times New Roman";
+  color: white;
+  background-color: teal;
+}
+
+h1 {
+  font-size: 60px;
+  margin: 0px;
+  padding: 0px;
+}
+h2 {
+  margin: 10px;
+  padding: 0px;
+  color: #999;
+}
+
+.register p {
+  color: white;
+}
+  
+div.wrap {
+  width: 500px;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  vertical-align: middle;
+}
+
+div.wrap div {
+  position: relative;
+  margin: 50px 0;
+}
+
+.wrap input {
+  box-sizing: border-box;
+  display: block;
+  width: 100%;
+  border-width: 1px;
+  border-style: solid;
+  padding: 16px;
+  outline: 0;
+  font-family: inherit;
+  font-size: 0.95em;
+  color: white;
+}
+ 
+input[type="text"] {    
+  width: 100%;
+  padding: 20px;
+  border: 1px solid white;
+  font-size: 20px;
+  background-color: white;
+  color: black;
+}
+ 
+input[type="mail"],
+input[type="password"] {
+  width: 100%;
+  padding: 20px;
+  font-size: 20px;
+  background: white;
+  border-color: white;
+  color: black;
+}
+ 
+input[type="submit"] {
+  background: teal;
+  border-color: transparent;
+  color: white;
+  border: 1px solid white;
+  cursor: pointer;
+  font-size: 20px;
+}
+
+input[type="submit"]:hover {
+  background: #FFDDFF;
+}
+

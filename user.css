@@ -1,0 +1,38 @@
+.wrap {
+  padding: 32px 0 64px;
+  background-color: #008080;
+  text-align: center;
+}
+
+.content {
+  width: 100%;
+  max-width: 600px;
+  margin: 0 auto;
+  padding: 16px;
+  background-color: #FFEEFF;
+  font-family: "Times New Roman";
+}
+
+.content h1 {
+  color: #FFCC33;
+  font-size: 50px;
+}
+
+.profile-image {
+  margin: 16px 0 0;
+  text-align: center;
+}
+
+.profile-image img {
+  width: 150px;
+  height: auto;
+  border-radius: 50%;
+}
+
+a {
+  color: #3F82A8;
+}
+
+a:hover {
+  text-decoration: none;
+}
