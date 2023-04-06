@@ -14,7 +14,7 @@
 <img width="1418" alt="スクリーンショット 2023-04-05 1 34 46" src="https://user-images.githubusercontent.com/124997155/229858521-8bd29e36-f49e-47ea-a83b-ed1f925fa661.png">
 
 <h2>URL</h2>
-
+https://yuna-create.com/board/board.php
 
 <h2>目的</h2>
 PHPを一通り勉強し終えたとき、実際に何か作りながら学んでみたいと思いました。掲示板は、学んできたPHPとデータベース（MySQL）を連携させて作ることができると知り、調べながら作ってみようと思いました。
